@@ -13,7 +13,6 @@ public class PrepFiles {
 	private static final String TIMEFIX_DIRECTORY = "C:\\Programs\\Timefix";
 	private static final String GSPLIT_DIRECTORY = "C:\\Programs\\GSplit";
 	private static final String TARGET_DIRECTORY = "C:\\Data\\Videos\\Timefixed";
-//	private static final String TARGET_DIRECTORY = "T:\\DVArchive\\Timefixed";
 	private static final String[] TARGET_EXTENSIONS = { "AVI", "FLV", "ISO",
 			"MKV", "MP4", "MPG", "ZIP" };
 	private static GUI window;

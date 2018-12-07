@@ -3,6 +3,7 @@ package prepFiles;
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -129,6 +130,7 @@ public class GUI extends javax.swing.JFrame {
 			helpMenu = new JMenu("Help");
 			aboutItem = new JMenuItem("About");
 			contentArea = new JPanel(new CardLayout());
+			contentArea.setFont(new Font ("Monospaced", Font.PLAIN, 12));
 			cardLayout = (CardLayout) contentArea.getLayout();
 			statusBar = new JPanel();
 			statusBarLabel = new JLabel();
@@ -160,6 +162,7 @@ public class GUI extends javax.swing.JFrame {
 			aboutItem.addActionListener(menuItemListener);
 
 			textArea = new JTextArea("");
+			textArea.setFont(new Font("Monospaced", Font.PLAIN, 12));
 			blankPane = new JScrollPane(textArea);
 			contentArea.add(blankPane, "blank");
 			cardLayout.show(contentArea, "blank");

@@ -12,6 +12,7 @@ import java.io.Reader;
 import java.io.StringWriter;
 import java.io.UnsupportedEncodingException;
 import java.io.Writer;
+import java.util.Collection;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,8 +26,11 @@ import javax.swing.table.TableColumn;
 // import com.seaglasslookandfeel.SeaGlassLookAndFeel;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
-import com.thoughtworks.xstream.io.xml.XmlFriendlyReplacer;
+import com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder;
 import com.thoughtworks.xstream.io.xml.XppDriver;
+import com.thoughtworks.xstream.security.NoTypePermission;
+import com.thoughtworks.xstream.security.NullPermission;
+import com.thoughtworks.xstream.security.PrimitiveTypePermission;
 
 public class SharedUtilities {
 
@@ -182,7 +186,8 @@ public class SharedUtilities {
 	}
 
 	public static String convertToXML(Class<?>[] classes, Object objectArray) {
-		XStream xstream = new XStream(new XppDriver(new XmlFriendlyReplacer("$", "_"))); 
+//		XStream xstream = new XStream(new XppDriver(new XmlFriendlyReplacer("$", "_"))); 
+		XStream xstream = new XStream(new XppDriver(new XmlFriendlyNameCoder()));
 		for (Class<?> classIdx : classes) {
 			xstream.processAnnotations(classIdx);
 		}
@@ -282,7 +287,7 @@ public class SharedUtilities {
 	public static boolean saveStringToFile(String fileName, String saveString) {
 		boolean saved = false;
 		BufferedWriter bw = null;
-	
+		
 		try {
 			bw = new BufferedWriter(new FileWriter(fileName));
 	
