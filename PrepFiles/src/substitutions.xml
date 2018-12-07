@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<substitutions>
+  <substitution>
+    <series>The Daily Show With Jon Stewart</series>
+    <alias>TDSW Jon Stewart</alias>
+  </substitution>
+  <substitution>
+    <series>Anthony Bourdain- No Reservations</series>
+    <alias>Anthony Bourdain- No RSVPs</alias>
+  </substitution>
+  <substitution>
+    <series>The Grim Adventures of Billy and Mandy</series>
+    <alias>Billy &amp; Mandy</alias>
+  </substitution>
+  <substitution>
+    <series>The Life and Times of Juniper Lee</series>
+    <alias>TLATO Juniper Lee</alias>
+  </substitution>
+  <substitution>
+    <series>The Life - Times of Juniper Lee</series>
+    <alias>TLATO Juniper Lee</alias>
+  </substitution>
+  <substitution>
+    <series>Buzz Lightyear of Star Command</series>
+    <alias>Buzz Lightyear</alias>
+  </substitution>
+  <substitution>
+    <series>Denise Richards- It-s Complicated</series>
+    <alias>Denise Richards- ---</alias>
+  </substitution>
+  <substitution>
+    <series>Now and Then- Here and There</series>
+    <alias>Now and Then---</alias>
+  </substitution>
+  <substitution>
+    <series>Moribito- Guardian of the Spirit</series>
+    <alias>Moribito---</alias>
+  </substitution>
+  <substitution>
+    <series>Terminator- The Sarah Connor Chronicles </series>
+    <alias>Terminator- TSCC </alias>
+  </substitution>
+  <substitution>
+    <series>GameTrailers TV With Geoff Keighley </series>
+    <alias>GameTrailers TV </alias>
+  </substitution>
+  <substitution>
+    <series>Batman- The Brave and the Bold </series>
+    <alias>Batman- TBATB </alias>
+  </substitution>
+  <substitution>
+    <series>10 Dollar Dinners With Melissa D-Arabian </series>
+    <alias>10 Dollar Dinners </alias>
+  </substitution>
+  <substitution>
+    <series>Scooby-Doo- Mystery Incorporated </series>
+    <alias>Scooby-Doo- Mys Inc </alias>
+  </substitution>
+</substitutions>
