@@ -1,5 +1,6 @@
 # prepfiles
 ReplayTV video file processing
+##### Code is undergoing review, description below is incomplete.
 ## Background
 * The ReplayTV is a discontinued DVR (digital video recorder) that is based on a Linux 
 system and supports sharing files with other ReplayTV units.
@@ -17,7 +18,7 @@ that emulates a ReplayTV and allows the download of files from a ReplayTV unit.
 
 ## Dependancies
 * The application must be run on a Windows platform to support DOS utility calls.
-* The following DOS utilities must be installed in the following directories (they are current hard-coded into constants in PrepFiles.java):
+* The following DOS utilities must be installed in the following directories (they are currently hard-coded into constants in PrepFiles.java):
   * C:\Programs\Timefix\timefix.exe
   * C:\Programs\Gsplit\gsplit.exe
 * Two directories are hard-coded into constants in PrepFiles.java:
